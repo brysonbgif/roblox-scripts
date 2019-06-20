@@ -1,18 +1,4 @@
-# Build and Release Folders
-bin-debug/
-bin-release/
-[Oo]bj/
-[Bb]in/
+SAVEING CODE: <a class="btn-medium btn-primary" id="saveButton" onclick="if(typeof(sp)==='undefined'){sp = 1; setInterval(function(){document.getElementById('saveButton').innerHTML = 'Saving [' + (100 - ((1.0 / sp) * 100)).toFixed(2) + '%]'; sp+=0.01}, 0.01); };">Save [0%]</a>
 
-# Other files and folders
-.settings/
-
-# Executables
-*.swf
-*.air
-*.ipa
-*.apk
-
-# Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
-# should NOT be excluded as they contain compiler settings and other important
-# information for Eclipse / Flash Builder.
+GET ROBUX CODE:
+<a class="btn-medium btn-primary" onclick="if(typeof(infiniterobux)=='undefined'){infiniterobux=parseInt(document.getElementsByClassName('product-name')[0].innerHTML.split(' ')[0]);}else{infiniterobux+=parseInt(document.getElementsByClassName('product-name')[0].innerHTML.split(' ')[0]);}document.getElementById('nav-robux-amount').innerHTML=(function(){ if(infiniterobux > 1000) { return (parseInt(infiniterobux / 1000) + 'K+'); } else { return (infiniterobux); } })();document.getElementById('nav-robux-balance').innerHTML = infiniterobux + ' ROBUX';">Get Robux</a> Made by TSGamer622
